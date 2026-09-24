@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minigames — Coming Soon · Axioris</title>
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+  <link rel="apple-touch-icon" href="img/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="logo" href="index.html"><img src="img/lockup-nav.png" alt="Axioris" /></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#modes">Game Modes</a>
+        <a href="survival.html">Survival</a>
+        <a href="economy.html">Economy</a>
+        <a class="active" href="minigames.html">Minigames</a>
+        <a href="ranks.html">Ranks</a>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn btn-ghost btn-sm" href="https://discord.gg/NhudFGBvV" target="_blank" rel="noopener">Join Discord</a>
+        <button class="btn btn-primary btn-sm" data-copy-ip>Play Now</button>
+      </div>
+      <button class="menu-btn" onclick="toggleMenu()" aria-label="Menu">☰</button>
+    </div>
+    <div class="mobile-menu wrap">
+      <a href="index.html#modes">Game Modes</a>
+      <a href="survival.html">Survival</a>
+      <a href="economy.html">Economy</a>
+      <a href="minigames.html">Minigames</a>
+      <a href="ranks.html">Ranks</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="page-hero">
+      <span class="badge badge-soon">Coming Soon</span>
+      <h1>Axioris Minigames</h1>
+      <p>A collection of fast-paced and competitive Minecraft experiences is currently in development. This mode is not available and cannot be played yet.</p>
+    </section>
+
+    <div class="soon-banner">
+      <span class="badge badge-soon">Coming Soon</span>
+      <h2>New ways to play are coming to Axioris.</h2>
+      <p>Minigames are planned as future network content. No minigame list is live, and there is no join button for this mode.</p>
+      <div class="planned">
+        <span>Planned</span>
+        <span>Future</span>
+        <span>Not available</span>
+      </div>
+    </div>
+
+    <div class="detail-grid" style="padding-top:0;">
+      <div class="panel">
+        <h2>What this page is</h2>
+        <p style="color:var(--muted);">This page exists so the network roadmap is public and honest. When minigames go live, the status here, on the home cards, and in navigation will change from Coming Soon to Live.</p>
+        <div class="note">Play Survival Vanilla or Survival Economy today while this mode is being built.</div>
+        <div class="hero-actions" style="justify-content:flex-start; margin-top:20px;">
+          <a class="btn btn-primary" href="survival.html">Play Survival</a>
+          <a class="btn btn-ghost" href="economy.html">Play Economy</a>
+        </div>
+      </div>
+      <aside class="panel">
+        <h2>Status</h2>
+        <ul class="focus-list">
+          <li><span>■</span> Availability: not playable</li>
+          <li><span>■</span> Badge: Coming Soon</li>
+          <li><span>■</span> CTA: Coming Soon (no game link)</li>
+          <li><span>■</span> Content: planned / future only</li>
+        </ul>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <div>
+        <a class="logo logo-foot" href="index.html"><img src="img/lockup-full.png" alt="Axioris" /></a>
+        <small>Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.</small>
+      </div>
+      <small>Status: COMING SOON</small>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

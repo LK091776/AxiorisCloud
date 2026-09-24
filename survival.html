@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Survival Vanilla — Axioris</title>
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+  <link rel="apple-touch-icon" href="img/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="logo" href="index.html"><img src="img/lockup-nav.png" alt="Axioris" /></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#modes">Game Modes</a>
+        <a class="active" href="survival.html">Survival</a>
+        <a href="economy.html">Economy</a>
+        <a href="minigames.html">Minigames</a>
+        <a href="ranks.html">Ranks</a>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn btn-ghost btn-sm" href="https://discord.gg/NhudFGBvV" target="_blank" rel="noopener">Join Discord</a>
+        <button class="btn btn-primary btn-sm" data-copy-ip>Play Now</button>
+      </div>
+      <button class="menu-btn" onclick="toggleMenu()" aria-label="Menu">☰</button>
+    </div>
+    <div class="mobile-menu wrap">
+      <a href="index.html#modes">Game Modes</a>
+      <a href="survival.html">Survival</a>
+      <a href="economy.html">Economy</a>
+      <a href="minigames.html">Minigames</a>
+      <a href="ranks.html">Ranks</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="page-hero">
+      <span class="badge badge-live"><span class="dot dot-live"></span> Live</span>
+      <h1>Survival Vanilla</h1>
+      <p>Experience Minecraft survival with vanilla gameplay that stays close to the original Minecraft experience.</p>
+      <div class="hero-actions" style="justify-content:flex-start; margin-top:22px;">
+        <button class="btn btn-primary" data-copy-ip>Play Survival</button>
+        <a class="btn btn-ghost" href="index.html#modes">All modes</a>
+      </div>
+    </section>
+
+    <div class="detail-grid">
+      <div class="panel">
+        <h2>About this mode</h2>
+        <p style="color:var(--muted); margin-bottom:16px;">This mode is for players who want to enjoy Minecraft survival without an economy system as the main focus. Build, explore, mine, farm, and progress at your own pace with land protection and a community around you.</p>
+        <div class="chips">
+          <span class="chip">Survival Vanilla</span>
+          <span class="chip">Building</span>
+          <span class="chip">Exploration</span>
+          <span class="chip">Mining</span>
+          <span class="chip">Farming</span>
+          <span class="chip">Adventure</span>
+          <span class="chip">Player progression</span>
+          <span class="chip">Land protection / claim</span>
+          <span class="chip">Community</span>
+        </div>
+        <div class="note">Only features that are actually available on the server are listed here. Upcoming ideas are not shown as live content.</div>
+      </div>
+      <aside class="panel">
+        <h2>Focus</h2>
+        <ul class="focus-list">
+          <li><span>■</span> Survival Vanilla</li>
+          <li><span>■</span> Building</li>
+          <li><span>■</span> Exploration</li>
+          <li><span>■</span> Mining &amp; farming</li>
+          <li><span>■</span> Adventure</li>
+          <li><span>■</span> Player progression</li>
+          <li><span>■</span> Land protection / claim</li>
+          <li><span>■</span> Community</li>
+        </ul>
+        <div class="note">IP: play.axioris.cloud</div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <div>
+        <a class="logo logo-foot" href="index.html"><img src="img/lockup-full.png" alt="Axioris" /></a>
+        <small>Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.</small>
+      </div>
+      <small>Status: LIVE</small>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

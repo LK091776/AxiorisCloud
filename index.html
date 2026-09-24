@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Axioris — Play · Build · Survive · Create</title>
+  <meta name="description" content="Axioris is a growing Minecraft network. Play Survival Vanilla and Survival Economy now. Minigames coming soon." />
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+  <link rel="apple-touch-icon" href="img/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="logo" href="index.html"><img src="img/lockup-nav.png" alt="Axioris" /></a>
+      <nav class="nav-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="#modes">Game Modes</a>
+        <a href="survival.html">Survival</a>
+        <a href="economy.html">Economy</a>
+        <a href="minigames.html">Minigames</a>
+        <a href="ranks.html">Ranks</a>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn btn-ghost btn-sm" href="https://discord.gg/NhudFGBvV" target="_blank" rel="noopener">Join Discord</a>
+        <button class="btn btn-primary btn-sm" data-copy-ip>Play Now</button>
+      </div>
+      <button class="menu-btn" onclick="toggleMenu()" aria-label="Menu">☰</button>
+    </div>
+    <div class="mobile-menu wrap">
+      <a href="#modes">Game Modes</a>
+      <a href="survival.html">Survival</a>
+      <a href="economy.html">Economy</a>
+      <a href="minigames.html">Minigames</a>
+      <a href="ranks.html">Ranks</a>
+      <a href="https://discord.gg/NhudFGBvV" target="_blank" rel="noopener">Join Discord</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <img class="logo-hero" src="img/lockup-full.png" alt="Axioris — Play, Build, Survive, Create" />
+      <div class="eyebrow"><span class="dot dot-live"></span> Welcome to Axioris · 2 modes live</div>
+      <h1>Build your<span>next adventure</span></h1>
+      <p class="lead">A growing Minecraft network for explorers, builders, and dreamers. Survival Vanilla and Survival Economy are live. Minigames are in development.</p>
+      <div class="hero-actions">
+        <button class="btn btn-primary btn-lg" data-copy-ip>Play Now</button>
+        <a class="btn btn-ghost btn-lg" href="https://discord.gg/NhudFGBvV" target="_blank" rel="noopener">Join Discord</a>
+        <a class="btn btn-ghost btn-lg" href="ranks.html">Open Ticket</a>
+      </div>
+      <div class="ip-bar">
+        <div>
+          <div class="ip-label">Official Server IP</div>
+          <code>play.axioris.cloud</code>
+        </div>
+        <button class="btn btn-cyan btn-sm" data-copy-ip>Copy IP</button>
+      </div>
+    </section>
+
+    <section id="modes">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Game Modes</div>
+            <h2>Choose how you play</h2>
+          </div>
+          <p>Live modes can be joined today. Coming Soon modes are still in development and cannot be played yet.</p>
+        </div>
+
+        <div class="mode-grid">
+          <article class="mode-card survival">
+            <svg class="mode-art" viewBox="0 0 120 120" fill="none" aria-hidden="true">
+              <rect x="20" y="58" width="80" height="42" rx="6" stroke="#2ee59b" stroke-width="3"/>
+              <path d="M36 58V42a24 24 0 0 1 48 0v16" stroke="#2ee59b" stroke-width="3"/>
+              <circle cx="60" cy="76" r="8" fill="#2ee59b"/>
+            </svg>
+            <span class="badge badge-live"><span class="dot dot-live"></span> Live</span>
+            <div class="mode-kicker">Survival</div>
+            <h3>Survival Vanilla</h3>
+            <p class="mode-tags">Explore • Build • Survive</p>
+            <p class="mode-desc">Experience Minecraft survival with vanilla gameplay that stays close to the original Minecraft experience. No economy-first systems.</p>
+            <div class="chips">
+              <span class="chip">Building</span>
+              <span class="chip">Exploration</span>
+              <span class="chip">Mining</span>
+              <span class="chip">Farming</span>
+              <span class="chip">Adventure</span>
+              <span class="chip">Claims</span>
+            </div>
+            <div class="spacer"></div>
+            <a class="btn btn-primary" href="survival.html">Play Survival</a>
+          </article>
+
+          <article class="mode-card economy">
+            <svg class="mode-art" viewBox="0 0 120 120" fill="none" aria-hidden="true">
+              <circle cx="60" cy="60" r="34" stroke="#22e0ff" stroke-width="3"/>
+              <path d="M60 38v44M48 48c4-6 24-6 24 6s-20 8-24 12 20 12 24 6" stroke="#22e0ff" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+            <span class="badge badge-live"><span class="dot dot-live"></span> Live</span>
+            <div class="mode-kicker">Economy</div>
+            <h3>Survival Economy</h3>
+            <p class="mode-tags">Trade • Earn • Build</p>
+            <p class="mode-desc">Survival with an economy system. Earn, spend, and grow your balance through server activity and player trading.</p>
+            <div class="chips">
+              <span class="chip">Shop</span>
+              <span class="chip">Auction House</span>
+              <span class="chip">Quests</span>
+              <span class="chip">Gacha / Rewards</span>
+              <span class="chip">Claims</span>
+              <span class="chip">Community</span>
+            </div>
+            <div class="spacer"></div>
+            <a class="btn btn-cyan" href="economy.html" style="color:#042028">Play Economy</a>
+          </article>
+
+          <article class="mode-card minigames">
+            <svg class="mode-art" viewBox="0 0 120 120" fill="none" aria-hidden="true">
+              <rect x="22" y="42" width="76" height="42" rx="16" stroke="#b7a4ff" stroke-width="3"/>
+              <circle cx="44" cy="63" r="6" stroke="#b7a4ff" stroke-width="3"/>
+              <path d="M74 56v14M67 63h14" stroke="#b7a4ff" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+            <span class="badge badge-soon">Coming Soon</span>
+            <div class="mode-kicker">Minigames</div>
+            <h3>Axioris Minigames</h3>
+            <p class="mode-tags">New experiences are coming.</p>
+            <p class="mode-desc">A collection of fast-paced and competitive Minecraft experiences is currently in development. This mode is not available yet.</p>
+            <div class="chips">
+              <span class="chip">Planned</span>
+              <span class="chip">Future content</span>
+            </div>
+            <div class="spacer"></div>
+            <a class="btn btn-soon" href="minigames.html">Coming Soon</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Server</div>
+            <h2>Join the network</h2>
+          </div>
+        </div>
+        <div class="info-grid">
+          <article class="info-card">
+            <h3>How to play</h3>
+            <p>Open Minecraft Java, go to Multiplayer, add a server, and use the official IP. Both live modes are reachable from the same network address.</p>
+            <div class="ip-bar" style="width:100%; justify-content:space-between;">
+              <code>play.axioris.cloud</code>
+              <button class="btn btn-cyan btn-sm" data-copy-ip>Copy IP</button>
+            </div>
+          </article>
+          <article class="info-card">
+            <h3>Community</h3>
+            <p>Announcements, support, and tickets live on Discord. This is the official community hub for Axioris.</p>
+            <a class="btn btn-ghost" href="https://discord.gg/NhudFGBvV" target="_blank" rel="noopener">Join Discord</a>
+          </article>
+          <article class="info-card">
+            <h3>Buy Rank</h3>
+            <p>Ranks are purchased by opening a ticket. There is no automatic checkout on this website.</p>
+            <a class="btn btn-primary" href="ranks.html">Open Ticket</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <div>
+        <a class="logo logo-foot" href="index.html"><img src="img/lockup-full.png" alt="Axioris" /></a>
+        <small>Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.</small>
+      </div>
+      <div>
+        <small>play.axioris.cloud</small>
+        <small>Live: Survival Vanilla · Survival Economy</small>
+        <small>Coming Soon: Minigames</small>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
